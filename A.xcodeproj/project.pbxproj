@@ -10,7 +10,7 @@
 		DB824B611D03CF8E0072DFC8 /* A.h in Headers */ = {isa = PBXBuildFile; fileRef = DB824B601D03CF8E0072DFC8 /* A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB824B681D03CF8F0072DFC8 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB824B5D1D03CF8E0072DFC8 /* A.framework */; };
 		DB824B6D1D03CF8F0072DFC8 /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB824B6C1D03CF8F0072DFC8 /* ATests.m */; };
-		DB824B791D03CFBA0072DFC8 /* AA.h in Headers */ = {isa = PBXBuildFile; fileRef = DB824B771D03CFBA0072DFC8 /* AA.h */; };
+		DB824B791D03CFBA0072DFC8 /* AA.h in Headers */ = {isa = PBXBuildFile; fileRef = DB824B771D03CFBA0072DFC8 /* AA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB824B7A1D03CFBA0072DFC8 /* AA.m in Sources */ = {isa = PBXBuildFile; fileRef = DB824B781D03CFBA0072DFC8 /* AA.m */; };
 /* End PBXBuildFile section */
 
@@ -384,6 +384,7 @@
 				DB824B731D03CF8F0072DFC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB824B741D03CF8F0072DFC8 /* Build configuration list for PBXNativeTarget "ATests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +393,7 @@
 				DB824B761D03CF8F0072DFC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
