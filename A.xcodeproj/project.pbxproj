@@ -10,6 +10,8 @@
 		DB824B611D03CF8E0072DFC8 /* A.h in Headers */ = {isa = PBXBuildFile; fileRef = DB824B601D03CF8E0072DFC8 /* A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB824B681D03CF8F0072DFC8 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB824B5D1D03CF8E0072DFC8 /* A.framework */; };
 		DB824B6D1D03CF8F0072DFC8 /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB824B6C1D03CF8F0072DFC8 /* ATests.m */; };
+		DB824B791D03CFBA0072DFC8 /* AA.h in Headers */ = {isa = PBXBuildFile; fileRef = DB824B771D03CFBA0072DFC8 /* AA.h */; };
+		DB824B7A1D03CFBA0072DFC8 /* AA.m in Sources */ = {isa = PBXBuildFile; fileRef = DB824B781D03CFBA0072DFC8 /* AA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		DB824B671D03CF8F0072DFC8 /* ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB824B6C1D03CF8F0072DFC8 /* ATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATests.m; sourceTree = "<group>"; };
 		DB824B6E1D03CF8F0072DFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB824B771D03CFBA0072DFC8 /* AA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AA.h; sourceTree = "<group>"; };
+		DB824B781D03CFBA0072DFC8 /* AA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				DB824B601D03CF8E0072DFC8 /* A.h */,
+				DB824B771D03CFBA0072DFC8 /* AA.h */,
+				DB824B781D03CFBA0072DFC8 /* AA.m */,
 				DB824B621D03CF8E0072DFC8 /* Info.plist */,
 			);
 			path = A;
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB824B791D03CFBA0072DFC8 /* AA.h in Headers */,
 				DB824B611D03CF8E0072DFC8 /* A.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB824B7A1D03CFBA0072DFC8 /* AA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
