@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F6257851D0914EF00698E89 /* AA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6257841D0914EF00698E89 /* AA.swift */; };
 		DB824B611D03CF8E0072DFC8 /* A.h in Headers */ = {isa = PBXBuildFile; fileRef = DB824B601D03CF8E0072DFC8 /* A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB824B681D03CF8F0072DFC8 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB824B5D1D03CF8E0072DFC8 /* A.framework */; };
 		DB824B6D1D03CF8F0072DFC8 /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB824B6C1D03CF8F0072DFC8 /* ATests.m */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F6257841D0914EF00698E89 /* AA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AA.swift; sourceTree = "<group>"; };
 		DB824B5D1D03CF8E0072DFC8 /* A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB824B601D03CF8E0072DFC8 /* A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
 		DB824B621D03CF8E0072DFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				DB824B601D03CF8E0072DFC8 /* A.h */,
 				DB824B771D03CFBA0072DFC8 /* AA.h */,
 				DB824B781D03CFBA0072DFC8 /* AA.m */,
+				2F6257841D0914EF00698E89 /* AA.swift */,
 				DB824B621D03CF8E0072DFC8 /* Info.plist */,
 			);
 			path = A;
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB824B7A1D03CFBA0072DFC8 /* AA.m in Sources */,
+				2F6257851D0914EF00698E89 /* AA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +320,7 @@
 		DB824B721D03CF8F0072DFC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -326,12 +331,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = WebMD.A;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DB824B731D03CF8F0072DFC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
