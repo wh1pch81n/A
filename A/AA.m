@@ -7,8 +7,11 @@
 //
 
 #import "AA.h"
+#import <A/A-Swift.h>
 
 @implementation AA
+@synthesize sayIt = _sayIt;
+
 - (void)AAA {
 	NSLog(@"AAAA bemo!");
 }

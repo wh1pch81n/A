@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AA : UIViewController
+@protocol ei
+@property (nonatomic, strong, readonly) NSString *sayIt;
+//-(void)swiftGuts;
+@end
+
+@interface AA : UIViewController<ei>
 - (void)AAA;
+//- (void)swiftGuts;
 @end
