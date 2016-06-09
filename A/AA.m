@@ -10,6 +10,6 @@
 
 @implementation AA
 - (void)AAA {
-	NSLog(@"AAAA");
+	NSLog(@"AAAA bemo!");
 }
 @end
