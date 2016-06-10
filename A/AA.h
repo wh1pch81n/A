@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NSString *DHLocalizedString(NSString *key, NSString *table, NSString *comment, NSObject *sender);
+
 @protocol ei
 @property (nonatomic, strong, readonly) NSString *sayIt;
 //-(void)swiftGuts;
