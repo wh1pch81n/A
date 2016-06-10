@@ -24,6 +24,6 @@ NSString *_DHLocalizedString(NSString *key, NSString *table, NSString *comment, 
 @synthesize sayIt = _sayIt;
 
 - (void)AAA {
-	NSLog(@"AAAA");
+	NSLog(@"AAAA bemo!");
 }
 @end
