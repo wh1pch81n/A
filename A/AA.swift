@@ -25,6 +25,7 @@ public extension NSObject {
 extension AA {
 	public func thisIsASwiftMethod() {
 		print("This is a Swift method extending an objective-c class")
+		print("kudos")
 	}
 	public override func viewDidAppear(animated: Bool) {
 		super.viewDidAppear(animated)
